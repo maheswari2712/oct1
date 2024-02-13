@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Test_Automation_Practice {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
     System.setProperty("Webdriver.chrome.driver", "C:\\Users\\Admin\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
    WebDriver driver=new ChromeDriver();	
    driver.get("https://testautomationpractice.blogspot.com/");
@@ -19,7 +19,7 @@ public class Test_Automation_Practice {
    driver.findElement(By.xpath("//input[@id='female']")).click();
    for(int i=1;i<=7;i++) {
 	   driver.findElement(By.xpath("//input[@type='checkbox']")).click();
-	   driver.findElement(By.xpath("//select[@id='country']")).click();
+	   
 	   
    }
 	}

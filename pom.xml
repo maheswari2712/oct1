@@ -12,10 +12,6 @@
 </dependency>
 
 
-    	<dependency>
-    		<groupId>Assignment</groupId>
-    		<artifactId>Assignment</artifactId>
-    		<version>0.0.1-SNAPSHOT</version>
-    	</dependency>
+    	
     </dependencies>
 </project>
